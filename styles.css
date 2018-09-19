@@ -1,0 +1,64 @@
+body {
+  background-image: url("images/books-1245690_1920.jpg");
+}
+
+.container {
+  width: 60%;
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 2px 2px black;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.success,
+.error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}
+
+.form-label {
+  color: whitesmoke;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+}
+
+#submit-button-div {
+  text-align: center;
+}
+
+#submit-button {
+  color: whitesmoke;
+  background-color: black;
+  width: 300px;
+}
+
+.u-full-width {
+  background-color: whitesmoke;
+  opacity: 0.8;
+  align-content: center;
+}
+
+#th {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#book-list {
+  background-color: black;
+  color: whitesmoke;
+}

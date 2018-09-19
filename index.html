@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Skeleton CSS Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+        <!-- External CSS File-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Project3</title>
+    </head>
+
+    <body>
+
+
+        <div class="container">
+            <form id="book-form">
+                <h1>Book List</h1>
+                <!-- TITLE -->
+                <div>
+                    <label class="form-label" for="title">Title</label>
+                    <input type="text" id="title" class="u-full-width">
+                </div>
+                <!-- AUTHOR -->
+                <div>
+                    <label class="form-label" for="author">Author</label>
+                    <input type="text" id="author" class="u-full-width">
+                </div>
+                <!-- ISBN -->
+                <div>
+                    <label class="form-label" for="isbn">ISBN</label>
+                    <input type="text" id="isbn" class="u-full-width">
+                </div>
+
+                <!-- SUBMIT BUTTON -->
+                <div id=submit-button-div>
+                    <input id="submit-button" href=" #" type="submit" value="submit" class="u-full-width">
+                </div>
+            </form>
+
+            <!-- OUTPUT TABLE -->
+            <table class="u-full-width">
+                <thead>
+                    <tr>
+                        <th id="th">Title</th>
+                        <th id="th">Author</th>
+                        <th id="th">ISBN</th>
+                        <th id="th"></th>
+                    </tr>
+                </thead>
+                <tbody id="book-list"></tbody>
+            </table>
+
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+
+</html>
